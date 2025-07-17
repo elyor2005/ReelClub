@@ -27,7 +27,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative h-screen flex items-center justify-center text-center text-white overflow-hidden bg-black mt-25">
+    <section className="relative h-screen flex items-center justify-center text-center text-white overflow-hidden bg-black pt-24  md:pt-30">
       <div className="absolute inset-0 overflow-hidden">
         <ElegantShape
           delay={0.3}
@@ -134,7 +134,7 @@ const HeroSection = () => {
         animate="visible"
       >
         <motion.h1
-          className="text-7xl sm:text-9xl md:text-9xl font-inter font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 via-yellow-400 to-rose-500 "
+          className="text-7xl lg:text-9xl md:text-7xl font-inter font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 via-yellow-400 to-rose-500  md:mt-24"
           animate={{
             backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
           }}
@@ -151,7 +151,7 @@ const HeroSection = () => {
           ReelsClub
         </motion.h1>
         <motion.h2
-          className="text-3xl sm:text-6xl md:text-[100px] font-inter font-bold leading-tight bg-gradient-to-b from-neutral-50 via-neutral-300 to-neutral-700 bg-clip-text text-transparent py-6 px-2"
+          className="text-3xl sm:text-6xl  md:text-6xl font-inter font-bold leading-tight bg-gradient-to-b from-neutral-50 via-neutral-300 to-neutral-700 bg-clip-text text-transparent py-6 px-2"
           variants={itemVariants}
         >
           Ekspertlar uchun Reels orqali o‘sish klubi

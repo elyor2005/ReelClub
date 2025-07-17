@@ -11,7 +11,7 @@ const App = () => {
     <div className="font-sans bg-gray-100 text-gray-800">
       <Navbar />
       <main className="bg-black ">
-        <HeroSection className="mt-25" />
+        <HeroSection />
         <AboutClub />
         <Offerings />
         <Pricing />
