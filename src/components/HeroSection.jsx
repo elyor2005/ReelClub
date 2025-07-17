@@ -27,7 +27,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative h-screen flex items-center justify-center text-center text-white overflow-hidden bg-black">
+    <section className="relative h-screen flex items-center justify-center text-center text-white overflow-hidden bg-black mt-25">
       <div className="absolute inset-0 overflow-hidden">
         <ElegantShape
           delay={0.3}
@@ -158,10 +158,10 @@ const HeroSection = () => {
         </motion.h2>
 
         <motion.p
-          className="text-lg sm:text-xl md:text-2xl py-6 text-neutral-500 font-inter"
+          className="text-lg sm:text-xl md:text-2xl py-6 font-inter text-cyan-700 font-semibold"
           variants={itemVariants}
         >
-          Endi har bir Reels siz uchun imkoniyatga aylanadi.
+          Endi har bir Reels siz uchun <br /> imkoniyatg aylanadi.
         </motion.p>
 
         {/* CTA  */}

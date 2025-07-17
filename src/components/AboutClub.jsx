@@ -73,8 +73,8 @@ const AboutClub = () => {
             viewport={{ once: true, amount: 0.3 }}
           >
             <div className="font-inter text-white mb-5 text-2xl md:text-3xl font-bold text-left">
-              <h1 className="text-4xl mb-4 font-bold">Agar siz:</h1>
-              <ol className="list-decimal list-inside flex flex-col gap-2 font-semibold">
+              <h1 className="text-2xl mb-4 font-bold">Agar siz:</h1>
+              <ol className="list-decimal list-inside flex flex-col gap-2 font-semibold text-xl">
                 <li>Ekspertsiz yoki coach/bloggersiz</li>
                 <li>Instagramda sistemali kontent qilmoqchisiz</li>
                 <li>“Nima chiqarsam ekan?” deb har kuni o‘ylaysiz</li>

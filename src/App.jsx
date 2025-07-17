@@ -10,8 +10,8 @@ const App = () => {
   return (
     <div className="font-sans bg-gray-100 text-gray-800">
       <Navbar />
-      <main className="bg-b">
-        <HeroSection />
+      <main className="bg-black ">
+        <HeroSection className="mt-25" />
         <AboutClub />
         <Offerings />
         <Pricing />
