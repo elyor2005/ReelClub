@@ -8,13 +8,6 @@ export function ElegantShape({
   height = 100,
   rotate = 0,
   gradient = "from-white/[0.08]",
-}: {
-  className?: string;
-  delay?: number;
-  width?: number;
-  height?: number;
-  rotate?: number;
-  gradient?: string;
 }) {
   return (
     <motion.div
@@ -75,14 +68,6 @@ export function ElegantImage({
   width = 400,
   height = 100,
   rotate = 0,
-}: {
-  src: string;
-  alt?: string;
-  className?: string;
-  delay?: number;
-  width?: number;
-  height?: number;
-  rotate?: number;
 }) {
   return (
     <motion.div

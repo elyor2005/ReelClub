@@ -1,7 +1,7 @@
 // src/components/HeroSection.jsx
 import React from "react";
 import { motion } from "framer-motion";
-import { ElegantImage, ElegantShape } from "./shared/ElegantShape";
+import { ElegantImage, ElegantShape } from "../components/shared/ElegantShape";
 
 const HeroSection = () => {
   const containerVariants = {

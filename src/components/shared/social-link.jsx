@@ -1,11 +1,6 @@
 import React from "react";
 
-interface SocialLinkProps {
-  href: string;
-  name: string;
-}
-
-const SocialLink = ({ href, name }: SocialLinkProps) => {
+const SocialLink = ({ href, name }) => {
   return (
     <>
       <a

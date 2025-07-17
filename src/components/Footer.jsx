@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { SOCIAL_LINKS } from "./const";
-import SocialLink from "./shared/social-link";
+import SocialLink from "./shared/social-link"; 
 
 const Footer = () => {
   const footerVariants = {

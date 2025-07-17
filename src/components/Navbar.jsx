@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NAV_LINKS } from "./const";
-import NavLink from "./shared/Nav.tsx";
+import NavLink from "./shared/Nav";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
