@@ -154,17 +154,17 @@ const HeroSection = () => {
         </motion.h1>
 
         <motion.h2
-          className="text-3xl sm:text-6xl  md:text-6xl font-inter font-bold leading-tight bg-gradient-to-b from-neutral-50 via-neutral-300 to-neutral-700 bg-clip-text text-transparent py-6 px-2"
+          className="text-3xl sm:text-6xl  md:text-6xl font-inter font-bold leading-tight bg-gradient-to-b from-neutral-50 via-neutral-300 to-neutral-700 bg-clip-text text-transparent  px-2 py-4"
           variants={itemVariants}
         >
           Ekspertlar uchun Reels orqali o‘sish klubi
         </motion.h2>
 
         <motion.p
-          className="text-lg sm:text-xl md:text-2xl py-6 font-inter text-white font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]  px-4 my-2 rounded-md inline-block"
+          className="text-lg sm:text-xl md:text-2xl  font-inter text-white font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]  px-4 my-2 rounded-md inline-block"
           variants={itemVariants}
         >
-          Endi har bir Reels siz uchun <br /> imkoniyatg aylanadi.
+          Endi har bir Reels siz uchun <br /> imkoniyatga aylanadi.
         </motion.p>
 
         {/* CTA  */}
