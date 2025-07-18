@@ -98,7 +98,7 @@ const HeroSection = () => {
         <ElegantImage
           src="/assets/IMG_9726.PNG"
           alt="Floating Hero Image"
-          width={300}
+          width={250}
           height={300}
           rotate={-15}
           delay={1.0}
@@ -150,6 +150,7 @@ const HeroSection = () => {
         >
           ReelsClub
         </motion.h1>
+
         <motion.h2
           className="text-3xl sm:text-6xl  md:text-6xl font-inter font-bold leading-tight bg-gradient-to-b from-neutral-50 via-neutral-300 to-neutral-700 bg-clip-text text-transparent py-6 px-2"
           variants={itemVariants}
@@ -158,7 +159,7 @@ const HeroSection = () => {
         </motion.h2>
 
         <motion.p
-          className="text-lg sm:text-xl md:text-2xl py-6 font-inter text-cyan-700 font-semibold"
+          className="text-lg sm:text-xl md:text-2xl py-6 font-inter text-white font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]  px-4 my-2 rounded-md inline-block"
           variants={itemVariants}
         >
           Endi har bir Reels siz uchun <br /> imkoniyatg aylanadi.
