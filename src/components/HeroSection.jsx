@@ -95,15 +95,17 @@ const HeroSection = () => {
         />
 
         {/* Image 3 */}
-        <ElegantImage
-          src="/assets/IMG_9726.PNG"
-          alt="Floating Hero Image"
-          width={250}
-          height={300}
-          rotate={-15}
-          delay={1.0}
-          className="left-[-25%] bottom-[5%] md:left-[20%] md:bottom-[10%] blur"
-        />
+        <div className="opacity-70">
+          <ElegantImage
+            src="/assets/IMG_9726.PNG"
+            alt="Floating Hero Image"
+            width={250}
+            height={300}
+            rotate={-15}
+            delay={1.0}
+            className="left-[-25%] bottom-[5%] md:left-[20%] md:bottom-[10%] blur "
+          />
+        </div>
 
         {/* Image 4 */}
         <ElegantImage
